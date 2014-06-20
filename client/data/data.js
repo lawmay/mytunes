@@ -19,5 +19,15 @@ var songData = [
     url: "https://s3-us-west-1.amazonaws.com/hr-mytunes/data/06+If+Your+Girl+Only+Knew.mp3",
     title: "If Your Girl Only Knew",
     artist: "Aaliyah",
+  },
+  {
+    url: "http://freedownloads.last.fm/download/569330114/Lost%2BBoys.mp3",
+    title: "Lost Boys",
+    artist: "Death Grips",
+  },
+  {
+    url: "http://freedownloads.last.fm/download/384950466/Thirteen%2BThirtyfive.mp3",
+    title: "Thirteen Thirtyfive",
+    artist: "Dillon",
   }
 ];

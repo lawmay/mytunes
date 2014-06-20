@@ -42,6 +42,10 @@ h2 {
   background: #999;
 }
 
+.dequeue:active, .enqueue:active, .up-queue:active, .down-queue:active {
+  background: #777;
+}
+
 
 
 .right {

@@ -34,9 +34,14 @@ var SongQueue = Songs.extend({
 
 
     this.on('downQueue', function(modelObject) {
-      console.log('downQueue pressed');
-      console.log(this);
-      console.log(model);
+      //only do this if length of the queue is > 2
+      var index = this.indexOf(modelObject);
+      if (this.length > 2 && index !== this.length - 1) {
+        var temp = this.models[index];
+        this.models[index] = this.models[index + 1];
+        this.models[index + 1] = temp;
+      }
+      this.trigger('add');
     });
 
   },
